@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC028D041D178EA20048B28C /* BeaconsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC028D021D178EA20048B28C /* BeaconsModel.xcdatamodeld */; };
 		EC2637BB1D128AAE0084A16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2637BA1D128AAE0084A16A /* AppDelegate.swift */; };
 		EC2637BD1D128AAE0084A16A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2637BC1D128AAE0084A16A /* FirstViewController.swift */; };
 		EC2637BF1D128AAE0084A16A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2637BE1D128AAE0084A16A /* SecondViewController.swift */; };
@@ -15,6 +16,15 @@
 		EC2637C71D128AAE0084A16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2637C51D128AAE0084A16A /* LaunchScreen.storyboard */; };
 		EC2637D21D128AAE0084A16A /* Beacons2112PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2637D11D128AAE0084A16A /* Beacons2112PrototypeTests.swift */; };
 		EC2637DD1D128AAE0084A16A /* Beacons2112PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2637DC1D128AAE0084A16A /* Beacons2112PrototypeUITests.swift */; };
+		EC2637EB1D128ABC0084A16A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2637EA1D128ABC0084A16A /* CoreBluetooth.framework */; };
+		EC532A7E1D1A6CE400CF2A45 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC532A7D1D1A6CE400CF2A45 /* TabBarController.swift */; };
+		EC532ABF1D1A706000CF2A45 /* BeaconData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC532ABE1D1A706000CF2A45 /* BeaconData.swift */; };
+		EC532AC51D1A711D00CF2A45 /* BeaconDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC532AC41D1A711D00CF2A45 /* BeaconDB.swift */; };
+		EC532AD21D1A772200CF2A45 /* Beacons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC532AD11D1A772200CF2A45 /* Beacons.swift */; };
+		EC7681D31D1397F400C1A090 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7681D21D1397F400C1A090 /* ScanViewController.swift */; };
+		EC795E611D18E1C100072E19 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC795E601D18E1C100072E19 /* CoreData.framework */; };
+		EC795E6A1D193AF600072E19 /* UUIDTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC795E691D193AF600072E19 /* UUIDTableViewController.swift */; };
+		EC795E6C1D19449200072E19 /* ConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC795E6B1D19449200072E19 /* ConfigTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC028D031D178EA20048B28C /* BeaconsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeaconsModel.xcdatamodel; sourceTree = "<group>"; };
 		EC2637B71D128AAE0084A16A /* Beacons2112Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beacons2112Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2637BA1D128AAE0084A16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC2637BC1D128AAE0084A16A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,15 @@
 		EC2637D81D128AAE0084A16A /* Beacons2112PrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Beacons2112PrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2637DC1D128AAE0084A16A /* Beacons2112PrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacons2112PrototypeUITests.swift; sourceTree = "<group>"; };
 		EC2637DE1D128AAE0084A16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2637EA1D128ABC0084A16A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		EC532A7D1D1A6CE400CF2A45 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		EC532ABE1D1A706000CF2A45 /* BeaconData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconData.swift; sourceTree = "<group>"; };
+		EC532AC41D1A711D00CF2A45 /* BeaconDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconDB.swift; sourceTree = "<group>"; };
+		EC532AD11D1A772200CF2A45 /* Beacons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacons.swift; sourceTree = "<group>"; };
+		EC7681D21D1397F400C1A090 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		EC795E601D18E1C100072E19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC795E691D193AF600072E19 /* UUIDTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUIDTableViewController.swift; sourceTree = "<group>"; };
+		EC795E6B1D19449200072E19 /* ConfigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC795E611D18E1C100072E19 /* CoreData.framework in Frameworks */,
+				EC2637EB1D128ABC0084A16A /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +101,7 @@
 		EC2637AE1D128AAE0084A16A = {
 			isa = PBXGroup;
 			children = (
+				EC795E621D18E1D700072E19 /* Framework */,
 				EC2637B91D128AAE0084A16A /* Beacons2112Prototype */,
 				EC2637D01D128AAE0084A16A /* Beacons2112PrototypeTests */,
 				EC2637DB1D128AAE0084A16A /* Beacons2112PrototypeUITests */,
@@ -99,13 +122,15 @@
 		EC2637B91D128AAE0084A16A /* Beacons2112Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				EC532ABC1D1A6E3E00CF2A45 /* Storyboard and UI */,
 				EC2637BA1D128AAE0084A16A /* AppDelegate.swift */,
 				EC2637BC1D128AAE0084A16A /* FirstViewController.swift */,
+				EC7681D21D1397F400C1A090 /* ScanViewController.swift */,
 				EC2637BE1D128AAE0084A16A /* SecondViewController.swift */,
-				EC2637C01D128AAE0084A16A /* Main.storyboard */,
-				EC2637C31D128AAE0084A16A /* Assets.xcassets */,
-				EC2637C51D128AAE0084A16A /* LaunchScreen.storyboard */,
-				EC2637C81D128AAE0084A16A /* Info.plist */,
+				EC795E6B1D19449200072E19 /* ConfigTableViewController.swift */,
+				EC795E691D193AF600072E19 /* UUIDTableViewController.swift */,
+				EC532AC61D1A73E300CF2A45 /* CoreData */,
+				EC532ABD1D1A6E6A00CF2A45 /* Supporting Files */,
 			);
 			path = Beacons2112Prototype;
 			sourceTree = "<group>";
@@ -126,6 +151,45 @@
 				EC2637DE1D128AAE0084A16A /* Info.plist */,
 			);
 			path = Beacons2112PrototypeUITests;
+			sourceTree = "<group>";
+		};
+		EC532ABC1D1A6E3E00CF2A45 /* Storyboard and UI */ = {
+			isa = PBXGroup;
+			children = (
+				EC2637C01D128AAE0084A16A /* Main.storyboard */,
+				EC2637C51D128AAE0084A16A /* LaunchScreen.storyboard */,
+				EC532A7D1D1A6CE400CF2A45 /* TabBarController.swift */,
+				EC2637C31D128AAE0084A16A /* Assets.xcassets */,
+			);
+			name = "Storyboard and UI";
+			sourceTree = "<group>";
+		};
+		EC532ABD1D1A6E6A00CF2A45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC028D021D178EA20048B28C /* BeaconsModel.xcdatamodeld */,
+				EC2637C81D128AAE0084A16A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC532AC61D1A73E300CF2A45 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EC532AD11D1A772200CF2A45 /* Beacons.swift */,
+				EC532AC41D1A711D00CF2A45 /* BeaconDB.swift */,
+				EC532ABE1D1A706000CF2A45 /* BeaconData.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		EC795E621D18E1D700072E19 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				EC2637EA1D128ABC0084A16A /* CoreBluetooth.framework */,
+				EC795E601D18E1C100072E19 /* CoreData.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +260,12 @@
 				TargetAttributes = {
 					EC2637B61D128AAE0084A16A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R934ZBMX6F;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					EC2637CC1D128AAE0084A16A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -260,8 +330,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC2637BF1D128AAE0084A16A /* SecondViewController.swift in Sources */,
+				EC532AD21D1A772200CF2A45 /* Beacons.swift in Sources */,
+				EC532A7E1D1A6CE400CF2A45 /* TabBarController.swift in Sources */,
+				EC795E6C1D19449200072E19 /* ConfigTableViewController.swift in Sources */,
+				EC028D041D178EA20048B28C /* BeaconsModel.xcdatamodeld in Sources */,
 				EC2637BB1D128AAE0084A16A /* AppDelegate.swift in Sources */,
+				EC7681D31D1397F400C1A090 /* ScanViewController.swift in Sources */,
+				EC532ABF1D1A706000CF2A45 /* BeaconData.swift in Sources */,
+				EC795E6A1D193AF600072E19 /* UUIDTableViewController.swift in Sources */,
 				EC2637BD1D128AAE0084A16A /* FirstViewController.swift in Sources */,
+				EC532AC51D1A711D00CF2A45 /* BeaconDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +481,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Beacons2112Prototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.incloud.Beacons2112Prototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -414,10 +497,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Beacons2112Prototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.incloud.Beacons2112Prototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -486,6 +573,7 @@
 				EC2637E31D128AAE0084A16A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2637E41D128AAE0084A16A /* Build configuration list for PBXNativeTarget "Beacons2112PrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +582,7 @@
 				EC2637E61D128AAE0084A16A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2637E71D128AAE0084A16A /* Build configuration list for PBXNativeTarget "Beacons2112PrototypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,8 +591,22 @@
 				EC2637E91D128AAE0084A16A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC028D021D178EA20048B28C /* BeaconsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC028D031D178EA20048B28C /* BeaconsModel.xcdatamodel */,
+			);
+			currentVersion = EC028D031D178EA20048B28C /* BeaconsModel.xcdatamodel */;
+			path = BeaconsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC2637AF1D128AAE0084A16A /* Project object */;
 }
